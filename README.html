@@ -52,7 +52,6 @@ Gamma oscillation:  2000 ms
 </p>
 <p/>The data saved in the "data" folder after simulation can be analyzed using the custom Matalb scripts located in the same folder. These scripts will also run under octave however the LFP in octave has a different result due to a different algorithm than used in matlab (see images folder). <br/>
 The simulation time ("t_end" variable in Constants.h) needs to be equal to or larger than the recommended time (see above) for the m-files to run properly! Also, set the varialbe "FLAG_OSC" in each m-file to the corresponding simulated oscillation state so the figures are generated properly.     
-   
 <p/>PlotV.m:  Plot membrane voltages of representative neurons: <br/>
 <img src="./images/PlotV.png" alt="screenshot" width="550">
 <br/>Raster.m: Plot the spiking activities of the whole network
@@ -61,6 +60,7 @@ The simulation time ("t_end" variable in Constants.h) needs to be equal to or la
 LFP.m:    Generate simulated local field potential (sLFP) with frequency power spectrum
 <br/><img src="./images/LFP_matlab.png" alt="screenshot" width="550">
 </p>
+
 <p>//======================================================================================================================== 
 </p>
 <p>The default simulation is without stimulation! 
